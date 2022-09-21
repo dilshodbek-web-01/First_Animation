@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  background-color: teal;
+  position: relative;
+  animation-name: box;
+  animation-duration: 20s;
+}
+
+@keyframes box {
+  0% {
+    background-color: teal;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  12% {
+    background-color: crimson;
+    position: absolute;
+    top: 0;
+    left: 45%;
+  }
+  24% {
+    background-color: yellow;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+  }
+  36% {
+    background-color: green;
+    position: absolute;
+    top: 40%;
+    left: 88%;
+  }
+  48% {
+    background-color: red;
+    position: absolute;
+    top: 75%;
+    left: 88%;
+  }
+  60% {
+    background-color: pink;
+    position: absolute;
+    top: 75%;
+    left: 45%;
+  }
+  72% {
+    background-color: black;
+    position: absolute;
+    top: 75%;
+    left: 0%;
+  }
+  90% {
+    background-color: grey;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+  }
+  100% {
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+  }
+}/*# sourceMappingURL=style.css.map */
